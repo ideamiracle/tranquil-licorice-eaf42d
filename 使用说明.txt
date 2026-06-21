@@ -1,0 +1,42 @@
+# 四柱排盘 · 国学智慧
+
+一款专业的四柱八字排盘分析工具。
+
+## 使用方式
+
+### 方式一：一键启动（推荐）
+双击 `启动服务.bat` 文件，然后在浏览器访问 http://localhost:8080
+
+### 方式二：使用 Python
+```bash
+cd dist
+python -m http.server 8080
+```
+然后访问 http://localhost:8080
+
+### 方式三：使用 VS Code
+安装 Live Server 插件后，右键 index.html → Open with Live Server
+
+## 功能特性
+
+- 四柱八字自动排盘
+- 公历/农历切换
+- 真太阳时校正
+- 五行旺衰分析
+- 格局判定
+- 喜用神分析
+- 流年运势
+- 行业适配推荐
+- 发展方位推荐
+- 生活参考提示
+
+## 技术栈
+
+- Vue 3 + Vite
+- ECharts（图表）
+- shunshi-bazi-core（排盘引擎）
+- lunar-calendar（农历转换）
+
+## 免责声明
+
+内容仅供国学文化娱乐参考，请勿封建迷信。
